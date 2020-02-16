@@ -1,0 +1,39 @@
+import sqlalchemy
+from sqlalchemy import Column,NUMERIC,VARCHAR,INTEGER
+from mapping_classes import Base
+from sqlalchemy.types import String
+class flights(Base):
+	__tablename__ = 'flights'
+	id = Column(INTEGER, primary_key=True)
+	YEAR = Column(INTEGER)
+	MONTH = Column(INTEGER)
+	DAY = Column(INTEGER)
+	DAY_OF_WEEK = Column(INTEGER)
+	AIRLINE = Column(VARCHAR)
+	FLIGHT_NUMBER = Column(INTEGER)
+	TAIL_NUMBER = Column(VARCHAR)
+	ORIGIN_AIRPORT = Column(VARCHAR)
+	DESTINATION_AIRPORT = Column(VARCHAR)
+	SCHEDULED_DEPARTURE = Column(INTEGER)
+	DEPARTURE_TIME = Column(NUMERIC)
+	DEPARTURE_DELAY = Column(NUMERIC)
+	TAXI_OUT = Column(NUMERIC)
+	WHEELS_OFF = Column(NUMERIC)
+	SCHEDULED_TIME = Column(INTEGER)
+	ELAPSED_TIME = Column(NUMERIC)
+	AIR_TIME = Column(NUMERIC)
+	DISTANCE = Column(INTEGER)
+	WHEELS_ON = Column(NUMERIC)
+	TAXI_IN = Column(NUMERIC)
+	SCHEDULED_ARRIVAL = Column(INTEGER)
+	ARRIVAL_TIME = Column(NUMERIC)
+	ARRIVAL_DELAY = Column(NUMERIC)
+	DIVERTED = Column(INTEGER)
+	CANCELLED = Column(INTEGER)
+	CANCELLATION_REASON = Column(VARCHAR)
+	AIR_SYSTEM_DELAY = Column(NUMERIC)
+	SECURITY_DELAY = Column(NUMERIC)
+	AIRLINE_DELAY = Column(NUMERIC)
+	LATE_AIRCRAFT_DELAY = Column(NUMERIC)
+	WEATHER_DELAY = Column(NUMERIC)
+        

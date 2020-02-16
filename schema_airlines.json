@@ -1,0 +1,17 @@
+{
+	"fields": [
+		{
+			"name": "IATA_CODE",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "AIRLINE",
+			"type": "string",
+			"format": "default"
+		}
+	],
+	"missingValues": [
+		""
+	]
+}

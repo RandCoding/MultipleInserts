@@ -1,0 +1,162 @@
+{
+	"fields": [
+		{
+			"name": "YEAR",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "MONTH",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "DAY",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "DAY_OF_WEEK",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "AIRLINE",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "FLIGHT_NUMBER",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "TAIL_NUMBER",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "ORIGIN_AIRPORT",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "DESTINATION_AIRPORT",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "SCHEDULED_DEPARTURE",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "DEPARTURE_TIME",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "DEPARTURE_DELAY",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "TAXI_OUT",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "WHEELS_OFF",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "SCHEDULED_TIME",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "ELAPSED_TIME",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "AIR_TIME",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "DISTANCE",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "WHEELS_ON",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "TAXI_IN",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "SCHEDULED_ARRIVAL",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "ARRIVAL_TIME",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "ARRIVAL_DELAY",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "DIVERTED",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "CANCELLED",
+			"type": "integer",
+			"format": "default"
+		},
+		{
+			"name": "CANCELLATION_REASON",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "AIR_SYSTEM_DELAY",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "SECURITY_DELAY",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "AIRLINE_DELAY",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "LATE_AIRCRAFT_DELAY",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "WEATHER_DELAY",
+			"type": "string",
+			"format": "default"
+		}
+	],
+	"missingValues": [
+		""
+	]
+}

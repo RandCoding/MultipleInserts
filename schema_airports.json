@@ -1,0 +1,42 @@
+{
+	"fields": [
+		{
+			"name": "IATA_CODE",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "AIRPORT",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "CITY",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "STATE",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "COUNTRY",
+			"type": "string",
+			"format": "default"
+		},
+		{
+			"name": "LATITUDE",
+			"type": "number",
+			"format": "default"
+		},
+		{
+			"name": "LONGITUDE",
+			"type": "number",
+			"format": "default"
+		}
+	],
+	"missingValues": [
+		""
+	]
+}
